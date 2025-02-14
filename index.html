@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mole Game</title>
+    <link rel="shortcut icon" href="tupai.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="pembungkus">
+            <div class="col-box-how-to-play">
+                <div class="col-banner">
+                    <div class="text-banner">HOW TO PLAY</div>
+                    <img src="banner.png" alt="" draggable="false">
+                </div>
+                <div class="box-content-how-to-play">
+                    <div class="line-how-to-play">
+                        <div class="box-angka">1</div>
+                        <h3>Input Username</h3>
+                    </div>
+                    <div class="line-how-to-play">
+                        <div class="box-angka">2</div>
+                        <h3>Click Button Play</h3>
+                    </div>
+                    <div class="line-how-to-play">
+                        <div class="box-angka">3</div>
+                        <h3>Enjoy the game </h3>
+                    </div>
+                    <div class="col-btn-back">
+                        <div class="text-back">BACK</div>
+                        <img src="play.png" class="btn-back" alt="" draggable="false">
+                    </div>
+                </div>
+            </div>
+            <div class="col-box-leadeboard">
+                <div class="col-banner">
+                    <div class="text-banner">LEADEBOARD</div>
+                    <img src="banner.png" alt="" draggable="false">
+                </div>
+                <div class="box-content-leadeboard">
+                    <div class="box-isi-content-leadeboard">
+                       
+                    </div>
+                    <div class="col-footer-leadeboard">
+                        <div class="col-btn-sort">
+                            <div class="text-sort">SORT SCORE</div>
+                            <img src="play.png" class="btn-sort" alt="" draggable="false">
+                        </div>
+                        <div class="col-btn-back-leadeboard">
+                            <div class="text-back">BACK</div>
+                            <img src="play.png" class="btn-back" alt="" draggable="false">
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="popup-screen">
+                <!-- <img src="play-game.jpg" width="500px" alt="" draggable="false"> -->
+                <img src="tupai.png" width="300px" alt="" draggable="false">
+                <div class="col-username">
+                    <img src="play.png" alt="" class="username-board" draggable="false">
+                    <input class="username" type="text" placeholder="Input Username">
+                </div>
+
+                <div class="col-leadeboard">
+                    <div class="text-leadeboard">LEADEBOARD</div>
+                    <img src="play.png" class="leadeboard" alt="" draggable="false">
+                </div>
+                <div class="col-footer">
+                    <div class="col-play">
+                        <div class="text-play">PLAY</div>
+                        <img src="play.png" class="play" alt="" draggable="false">
+                    </div>
+                    <div class="col-how-to-play">
+                        <div class="text-how-to-play">HOW TO PLAY</div>
+                        <img src="play.png" alt="" draggable="false">
+                    </div>
+
+                </div>
+                <div class="col-volume">
+                    <div class="line-volume"></div>
+                    <img class="volume" src="sound-icon" width="80" alt="" draggable="false">
+                </div>
+            </div>
+            <div class="header">
+                <div class="col-score">score: <span class="score"></span></div>
+                <div class="col-timer">timer: <span class="timer"></span> </div>
+                <div class="col-healt">
+                    <div class="healt"></div>
+                </div>
+            </div>
+            <div class="content">
+                <canvas></canvas>
+                <div class="popup-gameover">
+                    <img src="tupai.png" width="200" alt="" draggable="false">
+                    <img src="gameOverPng.jpg" width="400" alt="" draggable="false">
+                    <img class="restart" src="restart" width="300" alt="" draggable="false">
+                    <img src="exitGame.png" width="250px"  class="exitGame" draggable="false" alt="">
+                    <div class="col-volume">
+                        <div class="line-volume-gameover"></div>
+                        <img class="volume" src="volume" width="80" alt="" draggable="false">
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <audio src="mr-23142.mp3" class="audio-utama"></audio>
+    <audio src="woosh-230554.mp3" class="audio-tap"></audio>
+    <audio src="game-over-39-199830.mp3" class="audio-gameover"></audio>
+    <script src="app.js"></script>
+
+</body>
+
+</html>
